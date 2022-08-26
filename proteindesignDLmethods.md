@@ -19,7 +19,7 @@
 - [@sacdallago](https://twitter.com/sacdallago)
 - [@michaelheinzinger](https://twitter.com/michaelheinzinger)
 
-# Class I: Protein Sequence design ("Fixed-backbone")
+# Class I: Protein sequence design ("Fixed-backbone")
 Methods in this class attempt to solve the classical protein design problem: Find an optimal sequence that adopts a pre-determined 3D structure.
 | Name      | Architecture | Number of Parameters | User Input | Output | Training Dataset | Paper | Code | Release Month/Year |
 | :-------- | ------------- |---------------------| ---------- | ------- | --------------- | ----- | ---- | ------------------ | 
