@@ -4,7 +4,7 @@
 💡 **Notes**
 - This is a list accompanying an upcoming preprint. We focus on deep learning methods for protein design from the last four years. This table complements Table 1 in our manuscript.
 - We curated this list manually and as such it might be incomplete. Please drop us an email or open an issue if you find your method missing.
-- We order the methods by release date (preprint when available) and categorize them in four classes. For more details on these categories see our [preprint]().
+- We order the methods by release date (preprint when available) and categorize them in four classes (more details on these categories see our [preprint]()):.
   * 1: 'Fixed-backbone' protein design; p(sequence|structure)
   * 2: Structure generation; p(structure)
   * 3: Sequence generation; p(sequence) or p(sequence|sequence*)
