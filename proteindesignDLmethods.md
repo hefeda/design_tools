@@ -2,18 +2,17 @@
 # WIP
 
 💡 **Notes**
-- This is a list accompanying our manuscript 'Deep learning and robotics seed in-automata protein design' ([preprint](), [code](https://github.com/hefeda/PPIHP/)). We focus on deep learning methods for protein design from the last four years. This table complements Table 1 presented in our manuscript.
+- This is a list accompanying an upcoming preprint. We focus on deep learning methods for protein design from the last four years. This table complements Table 1 in our manuscript.
 - We curated this list manually and as such it might be incomplete. Please drop us an email or open an issue if you find your method missing.
 - We order the methods by release date (preprint when available) and categorize them in four classes. For more details on these categories see our [preprint]().
-  * 1: 'fixed-backbone' protein design; p(sequence|structure)
-  * 2: structure generation; p(structure)
-  * 3: sequence generation; p(sequence) or p(sequence|sequence*)
-  * 4: concomitant protein and sequence design. p(sequence and structure) (which can be constrained). 
+  * 1: 'Fixed-backbone' protein design; p(sequence|structure)
+  * 2: Structure generation; p(structure)
+  * 3: Sequence generation; p(sequence) or p(sequence|sequence*)
+  * 4: Concomitant protein and sequence design. p(sequence and structure) (which can be constrained). 
 - Others before us have also done a fantastic work assembling other methods, sometimes overlapping with this list. We link these lists here:
   * Kevin Yang's list on [ML methods for protein research](https://github.com/yangkky/Machine-learning-for-proteins/blob/master/README.md)
   * Christian Dallago & Sergey Ovchinnikov's lists on [structure prediction methods](https://github.com/sacdallago/folding_tools) and [protein language models](https://github.com/sacdallago/folding_tools/blob/main/pLM.md).
-  * Simon Dürr and Gina El Nesr's list on ['fixed-backbone' protein design](https://github.com/duerrsimon/folding_tools/blob/main/inversefolding.md)
-- We sort our methods chronologically
+  * Simon Dürr and Gina El Nesr's list on [inverse folding](https://github.com/duerrsimon/folding_tools/blob/main/inversefolding.md)
 
 
 # Class I: Protein Sequence design ("Fixed-backbone")
