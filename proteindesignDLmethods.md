@@ -14,6 +14,10 @@
   * Christian Dallago & Sergey Ovchinnikov's lists on [structure prediction methods](https://github.com/sacdallago/folding_tools) and [protein language models](https://github.com/sacdallago/folding_tools/blob/main/pLM.md).
   * Simon Dürr and Gina El Nesr's list on [inverse folding](https://github.com/duerrsimon/folding_tools/blob/main/inversefolding.md)
 
+**Contributors**
+- [@noeliaferruz](https://twitter.com/noeliaferruz)
+- [@sacdallago](https://twitter.com/sacdallago)
+- [@michaelheinzinger](https://twitter.com/michaelheinzinger)
 
 # Class I: Protein Sequence design ("Fixed-backbone")
 Methods in this class attempt to solve the classical protein design problem: Find an optimal sequence that adopts a pre-determined 3D structure.
