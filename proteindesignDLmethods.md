@@ -23,12 +23,12 @@
 Methods in this class attempt to solve the classical protein design problem: Find an optimal sequence that adopts a pre-determined 3D structure.
 | Name      | Architecture | Number of Parameters | User Input | Output | Training Dataset | Paper | Code | Release Month/Year |
 | :-------- | ------------- |---------------------| ---------- | ------- | --------------- | ----- | ---- | ------------------ | 
-| **SPIN2** |  FNN | ~105k | ? | sequence | 1,532 ? | [Paper](https://onlinelibrary.wiley.com/doi/10.1002/prot.25489) | [Code used to be here - no longer available](http://sparks-lab.org/service/) | 2018/02 | 
+| **SPIN2** |  FNN | ~105k | - | sequence | 1,532 | [Paper](https://onlinelibrary.wiley.com/doi/10.1002/prot.25489) | [Code used to be here - no longer available](http://sparks-lab.org/service/) | 2018/02 | 
 | ProteinSolver     |   GNN | ? |3D structure | sequence | 72,464,122 sequences/adjacency matrices pairs | [Paper](https://www.sciencedirect.com/science/article/pii/S2405471220303276?via%3Dihub)| [Code](https://github.com/ostrokach/proteinsolver) |2019/12|
-| ProDCoNN | CNN | >28k |3D structure | sequence | 26,179 sequences/PDB pairs? | [Paper](https://onlinelibrary.wiley.com/doi/10.1002/prot.25868)| - |2019/12|
+| ProDCoNN | CNN | >28k |3D structure | sequence | 26,179 sequences/PDB pairs? | [Paper](https://onlinelibrary.wiley.com/doi/10.1002/prot.25868)| [Code reimplementation](https://github.com/wells-wood-research/timed-design) |2019/12|
 | Ingraham et al. | modified Transformer | >3k | 3D structure | sequence | CATH 4.2 40% sequences/structures |[Paper](https://www.mit.edu/~vgarg/GenerativeModelsForProteinDesign.pdf)| [Code](https://www.mit.edu/~vgarg/github.com/jingraham/neurips19-graph-protein-design) |2019/12|
 | Anand et al. | CNN | - | 3D structure | sequence | 53,414  CATH domain structures  |[Paper](https://www.nature.com/articles/s41467-022-28313-9) | [Code](https://github.com/ProteinDesignLab/protein_seq_des)  |2020/01 |
-| DenseCPD | CNN | 3M | 3D structure | sequence | 11,227 3D structures  | [Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00043)| [Web server](http://protein.org.cn/densecpd.html) |2020/01|
+| DenseCPD | CNN | 3M | 3D structure | sequence | 11,227 3D structures  | [Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00043)| [Web server](http://protein.org.cn/densecpd.html) [Code reimplementation](https://github.com/wells-wood-research/timed-design) |2020/01|
 | GVP | GVP | - | 3D structure | sequence | CATH 4.2 40% sequences/structures | [Paper](https://arxiv.org/pdf/2009.01411)| [Code](https://github.com/drorlab/gvp) |2020/07|
 | Norn et al. | CNN | N/A |Distance map? | sequence | N/A | [Paper](https://www.pnas.org/doi/10.1073/pnas.2017228118)| [Code](https://github.com/gjoni/trDesign) |2020/07|
 | Fold2Seq | modified Transformer  | - | 3D structure |  sequence | 45,995 3D structures from CATH 4.2 | [Paper](https://arxiv.org/abs/2106.13058)| [Code](https://github.com/IBM/fold2seq) |2021/06|
@@ -42,7 +42,7 @@ Methods in this class attempt to solve the classical protein design problem: Fin
 | MIF | SGNN | - | 3D structure | sequence | - | [Paper](https://www.biorxiv.org/content/10.1101/2022.05.25.493516v1)| [Code](https://github.com/microsoft/protein-sequence-models) |2022/05|
 | ProteinMPNN | MPNN | >28k |Backbone | sequence | CATH 4.2 40% | [Paper](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1)| [Code](https://github.com/dauparas/ProteinMPNN) [Web Interface](https://github.com/dauparas/ProteinMPNN) |2022/07|
 | ProDESIGN-LE | - | - | - | sequence | - | [Paper](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v4)| - |2022/07|
-| TIMED| CNN | - | 3D structures | sequence | - | [Paper](https://doi.org/10.5281/zenodo.6997495)| [Code](https://github.com/wells-wood-research/timed-design) |2022/08|
+| TIMED| CNN | 3M | 3D structures | sequence | 32k sequences from the PISCES dataset (cullpdb_pc90_res3.0_R1.0_d200702_chains40583) | [Paper](https://doi.org/10.5281/zenodo.6997495)| [Code](https://github.com/wells-wood-research/timed-design) |2022/08|
 
 
 
