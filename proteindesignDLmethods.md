@@ -33,7 +33,6 @@ Methods in this class attempt to solve the classical protein design problem: Fin
 | Norn et al. | CNN | N/A |Distance map? | sequence | N/A | [Paper](https://www.pnas.org/doi/10.1073/pnas.2017228118)| [Code](https://github.com/gjoni/trDesign) |2020/07|
 | Fold2Seq | modified Transformer  | - | 3D structure |  sequence | 45,995 3D structures from CATH 4.2 | [Paper](https://arxiv.org/abs/2106.13058)| [Code](https://github.com/IBM/fold2seq) |2021/06|
 | CNN_protein_landscape | CNN  | >10M | 3D structure |  sequence | 16,569 PDB chains | [Paper](https://link.springer.com/article/10.1007/s10867-021-09593-6)| [Code](https://github.com/akulikova64/CNN_protein_landscape) |2021/08|
-
 | Orellana et al. | GCN | - | 3D structures | sequence | CATH 4.2 40% sequences/structures | [Paper](https://www.biorxiv.org/content/10.1101/2021.09.06.459171v3)| - |2021/11|
 | McPartlon et al. | modified Transformer | >10k | 3D structures | sequences | 37k 3D structures from BC40 | [Paper](https://www.biorxiv.org/content/10.1101/2022.04.15.488492v1)| - |2022/04|
 | ESM-IF1  | GVP-Transformer | 142M | 3D structure | sequence | 16k 3D structures + 1.2 M AF2 predictions | [Paper](https://www.biorxiv.org/content/10.1101/2022.04.10.487779v1.full.pdf)| [Code](https://github.com/facebookresearch/esm) | 2022/04 |
