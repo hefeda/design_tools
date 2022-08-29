@@ -53,8 +53,7 @@ Methods in this class generate structures unconditionally or from a set of secon
 | :-------- | ------------- |---------------------| ---------- | ------- | --------------- | ----- | ---- | ------------------ | 
 | **64GAN** |  GAN | - | - | contact map (3D structure via ADMM) | 427,659 contact maps | [Paper](https://papers.nips.cc/paper/2018/hash/afa299a4d1d8c52e75dd8a24c3ce534f-Abstract.html) |-|  2018/12| 
 | **64GAN-DIS** | GAN | - | - | distance map (3D structure via CNN) | 800,000 distance maps | [Paper](https://openreview.net/forum?id=SJxnVL8YOV) |  | 2019/03| 
-| **RamaNet** |  LSTM  | - | - | A sequence of φ and ψ angles | 607 helical structures | [Paper](https://f1000research.com/articles/9-298) | [Code](https://sarisabban.github.io/RamaNet/) | 19/
-06 | 
+| **RamaNet** |  LSTM  | - | - | A sequence of φ and ψ angles | 607 helical structures | [Paper](https://f1000research.com/articles/9-298) | [Code](https://sarisabban.github.io/RamaNet/) | 19/06 | 
 | **DECO-VAE** | VAE  | - | - | contact graph (translatable to contact map) | >650,000 contact graphs | [Paper](https://arxiv.org/abs/2004.07119) | - | 2020/04 | 
 | **SCUBA** |  NC-NN | ~20k | secondary structure motif | backbone | 12,465  structures | [Paper](https://www.nature.com/articles/s41586-021-04383-5) | [Code](https://zenodo.org/record/4533424#.YwP3UPFBwqs) | | 
 | **GENESIS** |  VAE | - | secondary structure motif | contact map | 40,726 backbones with remodeled loops | [Paper](https://openreview.net/pdf?id=DwN81YIXGQP) | - | 2022/04 | 
