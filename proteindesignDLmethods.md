@@ -74,7 +74,7 @@ Methods in this class generate sequences usually from autoregressive language mo
 | **DARK3** | Transformer  | 110M | Optional: sequence | sequence | 615,000 sequences | [Paper](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1.full) |  | 2022/01 | 
 | **ProtGPT2** | Transformer | 739M | Optional: sequence | sequence | UniRef50 | [Paper](https://www.nature.com/articles/s41467-022-32007-7) | [Code](https://huggingface.co/nferruz/ProtGPT2) | 2022/03 | 
 | **RITA** |  Transformer |  1.2B | Optional: sequence | sequence | UniRef50 | [Paper](https://arxiv.org/abs/2205.05789) | [Code](https://huggingface.co/lightonai/RITA_xl) | 2022/05 | 
-| **ProGEN2** | Transformer  | 6.4B | Optional: sequence | sequence |  | [Paper](https://arxiv.org/abs/2206.13517) | [Code](https://github.com/salesforce/progen) | 2022/06 |
+| **ProGEN2** | Transformer  | 6.4B | Optional: sequence | sequence | Uniref90+BF30 | [Paper](https://arxiv.org/abs/2206.13517) | [Code](https://github.com/salesforce/progen) | 2022/06 |
 
 # Class IV: Sequence and structure design
 Methods in this class generate sequences and structures concomitantly, and include hallucination methods and constrained generation (inpainting)
