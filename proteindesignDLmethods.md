@@ -81,9 +81,9 @@ Methods in this class generate sequences and structures concomitantly, and inclu
 
 | Name      | Architecture | Number of Parameters | User Input | Output | Training Dataset | Paper | Code | Release Month/Year |
 | :-------- | ------------- |---------------------| ---------- | ------- | --------------- | ----- | ---- | ------------------ | 
-| **Hallucination** | CNN (trRosetta)  | - | random sequence | sequence/structure | N/A | [Paper](https://www.nature.com/articles/s41586-021-04184-w) | [Code](https://github.com/gjoni/trDesign) | 2020/07 | 
-| **Constrained hallucination** |  CNN (trRosetta) | - | sequence/structure | sequence/structure | N/A | [Paper](https://pubmed.ncbi.nlm.nih.gov/34547592/) | [Code](https://www.biorxiv.org/content/10.1101/2020.11.29.402743v1.full) | 2020/11 | 
-| **Constrained hallucination2** |  CNN (RoseTTAFold) | - | sequence/structure | sequence/structure | N/A | [Paper](https://www.science.org/doi/full/10.1126/science.abn2100?af=R) | [Code](https://github.com/RosettaCommons/RFDesign) | 2021/11 | 
-| **RFjoint** | CNN (RoseTTAFold, finetuned) | | sequence/structure | sequence/structure | Finetuned with 25% PDB version 02/2020 + 75 % AF2 structures  | [Paper](https://www.science.org/doi/full/10.1126/science.abn2100?af=R) | [Code](https://github.com/RosettaCommons/RFDesign) | 2021/11 | 
+| **Hallucination** | CNN (trRosetta)  | N/A | random sequence | sequence/structure | N/A | [Paper](https://www.nature.com/articles/s41586-021-04184-w) | [Code](https://github.com/gjoni/trDesign) | 2020/07 | 
+| **Constrained hallucination** |  CNN (trRosetta) | N/A | sequence/structure | sequence/structure | N/A | [Paper](https://pubmed.ncbi.nlm.nih.gov/34547592/) | [Code](https://www.biorxiv.org/content/10.1101/2020.11.29.402743v1.full) | 2020/11 | 
+| **Constrained hallucination2** |  CNN (RoseTTAFold) | N/A | sequence/structure | sequence/structure | N/A | [Paper](https://www.science.org/doi/full/10.1126/science.abn2100?af=R) | [Code](https://github.com/RosettaCommons/RFDesign) | 2021/11 | 
+| **RFjoint** | CNN (RoseTTAFold, finetuned) | N/A | sequence/structure | sequence/structure | Finetuned with 25% PDB version 02/2020 + 75 % AF2 structures  | [Paper](https://www.science.org/doi/full/10.1126/science.abn2100?af=R) | [Code](https://github.com/RosettaCommons/RFDesign) | 2021/11 | 
 | **Protein Diffusion** | Diffussion model  | - | Secondary structure motif sketches | sequence/structure | 53,414 3D structures (95% CATH 4.2 S95) | [Paper](https://arxiv.org/abs/2205.15019) | [Code](https://nanand2.github.io/proteins/) | 2022/05| 
 
