@@ -1,6 +1,6 @@
 
 💡 **Notes**
-- This is a list accompanying an upcoming preprint. We focus on deep learning methods for protein design from the last four years. This table complements Table 1 in our manuscript.
+- This is a list accompanying our preprint: https://www.biorxiv.org/content/10.1101/2022.08.31.505981v1 . We focus on deep learning methods for protein design from the last four years. This table complements Table 1 in our manuscript.
 - We curated this list manually and as such it might be incomplete. Please drop us an email or open an issue if you find your method missing.
 - We order the methods by release date (preprint when available) and categorize them in four classes (for more details on these categories see our [preprint]()):.
   * 1: 'Fixed-backbone' protein design; p(sequence|structure)
