@@ -43,7 +43,6 @@ Methods in this class attempt to solve the classical protein design problem: Fin
 | TIMED| CNN | 3M | 3D structures | sequence | 32k sequences from the PISCES dataset (cullpdb_pc90_res3.0_R1.0_d200702_chains40583) | [Paper](https://doi.org/10.5281/zenodo.6997495)| [Code](https://github.com/wells-wood-research/timed-design) |2022/08|
 
 
-
 #  Class II: Structure generation
 Methods in this class generate structures unconditionally or from a set of secondary structural conditions.
 
