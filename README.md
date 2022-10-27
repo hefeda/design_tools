@@ -3,14 +3,16 @@
 - This is a list accompanying our preprint: https://www.biorxiv.org/content/10.1101/2022.08.31.505981v1 . We focus on deep learning methods for protein design released after 2018 (and mostly 2019). This table complements Table 1 in our manuscript.
 - We curated this list manually and as such it might be incomplete. Please drop us an email or open an issue if you find your method missing.
 - We order the methods by release date (preprint when available) and categorize them in four classes (for more details on these categories see our [preprint](https://www.biorxiv.org/content/10.1101/2022.08.31.505981v1), Figure 1 and text):
-  * 1: 'Fixed-backbone' protein design; p(sequence|structure)
-  * 2: Structure generation; p(structure)
-  * 3: Sequence generation; p(sequence) or p(sequence|sequence*)
-  * 4: Concomitant protein and sequence design. p(sequence and structure) (which can be constrained). 
-- Others before us have also done a fantastic work assembling other methods, sometimes overlapping with this list. We link these lists here:
+  * 1️⃣: 'Fixed-backbone' protein design; p(sequence|structure)
+  * 2️⃣: Structure generation; p(structure)
+  * 3️⃣: Sequence generation; p(sequence) or p(sequence|sequence*)
+  * 4️⃣: Concomitant protein and sequence design. p(sequence and structure) (which can be constrained). 
+- Others before us have also done a fantastic work assembling deep learning methods for other protein-related problems, sometimes overlapping with this list. We link these lists here:
   * Kevin Yang's list on [ML methods for protein research](https://github.com/yangkky/Machine-learning-for-proteins/blob/master/README.md)
   * Christian Dallago & Sergey Ovchinnikov's lists on [structure prediction methods](https://github.com/sacdallago/folding_tools) and [protein language models](https://github.com/sacdallago/folding_tools/blob/main/pLM.md).
   * Simon Dürr and Gina El Nesr's list on [inverse folding](https://github.com/duerrsimon/folding_tools/blob/main/inversefolding.md)
+  
+- 💥 This work was recently highlighted in [Nature](https://www.nature.com/articles/d41586-022-02947-7)
 
 **Contributors**
 - [@noeliaferruz](https://twitter.com/noeliaferruz)
@@ -28,14 +30,14 @@ Methods in this class attempt to solve the classical protein design problem: Fin
 | Anand et al. | CNN | - | 3D structure | sequence | 53,414  CATH domain structures  |[Paper](https://www.nature.com/articles/s41467-022-28313-9) | [Code](https://github.com/ProteinDesignLab/protein_seq_des)  |2020/01 |
 | DenseCPD | CNN | 3M | 3D structure | sequence | 11,227 3D structures  | [Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00043)| [Web server](http://protein.org.cn/densecpd.html) [Code reimplementation](https://github.com/wells-wood-research/timed-design) |2020/01|
 | ProteinSolver |   GNN | - |3D structure | sequence | 72,464,122 sequences/adjacency matrices pairs | [Paper](https://www.sciencedirect.com/science/article/pii/S2405471220303276?via%3Dihub)| [Code](https://github.com/ostrokach/proteinsolver) |2020/03|
-| GVP | GVP | - | 3D structure | sequence | CATH 4.2 40% sequences/structures | [Paper](https://arxiv.org/pdf/2009.01411)| [Code](https://github.com/drorlab/gvp) |2020/07|
 | Norn et al. | CNN | N/A |Distance map? | sequence | N/A | [Paper](https://www.pnas.org/doi/10.1073/pnas.2017228118)| [Code](https://github.com/gjoni/trDesign) |2020/07|
+| GVP-GNN | GVP | - | 3D structure | sequence | CATH 4.2 40% sequences/structures | [Paper](https://arxiv.org/pdf/2009.01411)| [Code](https://github.com/drorlab/gvp) |2020/10|
 | Fold2Seq | modified Transformer  | - | 3D structure |  sequence | 45,995 3D structures from CATH 4.2 | [Paper](https://arxiv.org/abs/2106.13058)| [Code](https://github.com/IBM/fold2seq) |2021/06|
 | CNN_protein_landscape | CNN  | >10M | 3D structure |  sequence | 16,569 PDB chains | [Paper](https://link.springer.com/article/10.1007/s10867-021-09593-6)| [Code](https://github.com/akulikova64/CNN_protein_landscape) |2021/08|
 | Orellana et al. | GCN | - | 3D structures | sequence | CATH 4.2 40% sequences/structures | [Paper](https://www.biorxiv.org/content/10.1101/2021.09.06.459171v3)| - |2021/11|
-| McPartlon et al. | modified Transformer | >10k | 3D structures | sequences | 37k 3D structures from BC40 | [Paper](https://www.biorxiv.org/content/10.1101/2022.04.15.488492v1)| - |2022/04|
+| ABACUS-R | Transformer | 152M | 3D structures | sequence | CATH 4.2 | [Paper](https://www.nature.com/articles/s43588-022-00273-6)| [Code](https://codeocean.com/capsule/6949436/tree/v1)  |2022/02|
 | ESM-IF1  | GVP-Transformer | 142M | 3D structure | sequence | 16k 3D structures + 1.2 M AF2 predictions | [Paper](https://www.biorxiv.org/content/10.1101/2022.04.10.487779v1.full.pdf)| [Code](https://github.com/facebookresearch/esm) | 2022/04 |
-| ABACUS-R | Transformer | 152M | 3D structures | sequence | CATH 4.2 | [Paper](ttps://www.nature.com/articles/s43588-022-00273-6)| [Code](https://codeocean.com/capsule/6949436/tree/v1)  |2022/02|
+| McPartlon et al. | modified Transformer | >10k | 3D structures | sequences | 37k 3D structures from BC40 | [Paper](https://www.biorxiv.org/content/10.1101/2022.04.15.488492v1)| - |2022/04|
 | TERMinator | GNN | - | 3D structure | Potts model | CATH 4.2 40% sequences/structures | [Paper](https://arxiv.org/abs/2204.13048)| |2022/04|
 | MIF | SGNN | - | 3D structure | sequence | - | [Paper](https://www.biorxiv.org/content/10.1101/2022.05.25.493516v1)| [Code](https://github.com/microsoft/protein-sequence-models) |2022/05|
 | ProteinMPNN | MPNN | >28k |Backbone | sequence | CATH 4.2 40% | [Paper](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1)| [Code](https://github.com/dauparas/ProteinMPNN) [Web Interface](https://github.com/dauparas/ProteinMPNN) |2022/07|
