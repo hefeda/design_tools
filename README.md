@@ -64,9 +64,12 @@ Methods in this class generate sequences usually from autoregressive language mo
 
 | Name      | Architecture | Number of Parameters | User Input | Output | Training Dataset | Paper | Code | Release Month/Year |
 | :-------- | ------------- |---------------------| ---------- | ------- | --------------- | ----- | ---- | ------------------ | 
-| **ProteinGAN** | GAN  | 60M |   | sequence |  16,706 MDH sequences | [Paper](https://www.nature.com/articles/s42256-021-00310-5) | [Code](https://github.com/Biomatter-Designs/ProteinGAN) | 2019/03 | 
-| **ProGen** | Transformer  | 1.2B | Optional: sequence or function | sequence | 280M sequences | [Paper](https://www.biorxiv.org/content/10.1101/2020.03.07.982272v2) | [Code](https://github.com/salesforce/progen) | 2020/03 | 
+| **ProteinGAN** | GAN  | 60M |  | sequence |  16,706 MDH sequences | [Paper](https://www.nature.com/articles/s42256-021-00310-5) | [Code](https://github.com/Biomatter-Designs/ProteinGAN) | 2019/10 | 
+| **ProGen** | Transformer  | 1.2B | Optional: sequence or function | sequence | 280M sequences | [Paper](https://www.biorxiv.org/content/10.1101/2020.03.07.982272v2) | | 2020/03 | 
 | **ProtXLnet** |  Transformer |409M | Optional: sequence | sequence | UniRef100 | [Paper](https://ieeexplore.ieee.org/document/9477085) | [Code](https://huggingface.co/Rostlab/prot_xlnet) | 2020/07 | 
+| **ProtXL** |  Transformer |562M | Optional: sequence | sequence | BFD100 | [Paper](https://ieeexplore.ieee.org/document/9477085) | | 2020/07 | 
+| **ProtElectra-Generator** |  Transformer |420M | Optional: sequence | sequence | Uniref100 | [Paper](https://ieeexplore.ieee.org/document/9477085) | [Code](https://huggingface.co/Rostlab/prot_electra_generator_bfd) | 2020/07 | 
+| **ProT5** |  Transformer | 3B | Optional: sequence | sequence | BFD100 | [Paper](https://ieeexplore.ieee.org/document/9477085) | [Code](https://huggingface.co/Rostlab/prot_t5_xl_bfd) | 2020/07 | 
 | **EVE** | VAE |  | MSA | Sequence | 3,219 MSAs extracted from UniRef100| [Paper](https://www.nature.com/articles/s41586-021-04043-8) | [Code](https://github.com/OATML-Markslab/EVE) | 2020/12 | 
 | **DARK3** | Transformer  | 110M | Optional: sequence | sequence | 615,000 synthetic sequences | [Paper](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1.full) | - | 2022/01 | 
 | **ProtGPT2** | Transformer | 739M | Optional: sequence | sequence | UniRef50 | [Paper](https://www.nature.com/articles/s41467-022-32007-7) | [Code](https://huggingface.co/nferruz/ProtGPT2) | 2022/03 | 
