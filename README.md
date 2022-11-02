@@ -39,8 +39,8 @@ Methods in this class attempt to solve the classical protein design problem: Fin
 | ABACUS-R | Transformer | 152M | 3D structures | sequence | CATH 4.2 | [Paper](https://www.nature.com/articles/s43588-022-00273-6)| [Code](https://biocomp.ustc.edu.cn/servers/abacus-design.php) |2022/02|
 | ESM-IF1  | GVP-Transformer | 142M | 3D structure | sequence | 16k X-ray structures + 1.2M AF2 predictions | [Paper](https://www.biorxiv.org/content/10.1101/2022.04.10.487779v1.full.pdf)| [Code](https://github.com/facebookresearch/esm) | 2022/04 |
 | McPartlon et al. | modified Transformer | - | 3D structures | sequences | 37k X-ray structures from BC40 | [Paper](https://www.biorxiv.org/content/10.1101/2022.04.15.488492v1)| - |2022/04|
-| ProteinMPNN | MPNN | >28k | 3D structure | sequence | CATH 4.2 40% sequences/structures| [Paper](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1)| [Code](https://github.com/dauparas/ProteinMPNN) [Web Interface](https://huggingface.co/spaces/simonduerr/ProteinMPNN) |2022/07|
-| ProDESIGN-LE | ? | ? | | sequence | ?| [Paper](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v4)| - |2022/07|
+| ProteinMPNN | MPNN | 1.8m | 3D structure | sequence | CATH 4.2 40% sequences/structures| [Paper](https://www.science.org/doi/10.1126/science.add2187)| [Code](https://github.com/dauparas/ProteinMPNN) [Web Interface](https://huggingface.co/spaces/simonduerr/ProteinMPNN) |2022/07|
+| ProDESIGN-LE | Transformer + FNN | - | 3D structure | sequence | 5,867,488 residues from PDB40 | [Paper](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v4)| - |2022/07|
 | MIF | SGNN | ? | | sequence | ? | [Paper](https://www.biorxiv.org/content/10.1101/2022.05.25.493516v1)| [Code](https://github.com/microsoft/protein-sequence-models) |2022/05|
 
 
