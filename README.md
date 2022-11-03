@@ -59,6 +59,7 @@ Methods in this class generate structures unconditionally or from a set of secon
 | **Ig-VAE** | VAE | - | - | protein backbone coordinates | 10,768 individual immunoglobulin domains | [Paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010271) | [Code](https://github.com/ProteinDesignLab/IgVAE) | 2022/02 | 
 | **GENESIS** |  VAE | - | secondary structure motif | contact map | 40,726 backbones with remodeled loops | [Paper](https://openreview.net/pdf?id=DwN81YIXGQP) | - | 2022/03 | 
 | **Lai et al.** | VAE | - | topology | protein backbone coordinates | CATH 4.2 40% sequences/structures | [Paper](https://www.biorxiv.org/content/10.1101/2022.07.09.499440) | - | 2022/07| 
+| **ProteinSGM** | SDE + RefineNet | - | optional: masked matrices | matrices describing distance and torsional angles | 10,361 CATH 4.3 95% structures | [Paper](https://www.biorxiv.org/content/10.1101/2022.07.13.499967v1) | - | 2022/07| 
 
 # Class III: Sequence generation
 Methods in this class generate sequences usually from autoregressive language models, and can sometimes be conditioned.
