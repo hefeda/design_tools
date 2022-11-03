@@ -43,7 +43,7 @@ Methods in this class attempt to solve the classical protein design problem: Fin
 | MIF | Structured GNN | 6.8M | 3D structure| sequence |  | [Paper](https://www.biorxiv.org/content/10.1101/2022.05.25.493516v1)| [Code](https://github.com/microsoft/protein-sequence-models) |2022/05|
 | ProteinMPNN | MPNN | 1.8M | 3D structure | sequence | CATH 4.2 40% sequences/structures| [Paper](https://www.science.org/doi/10.1126/science.add2187)| [Code](https://github.com/dauparas/ProteinMPNN) [Web Interface](https://huggingface.co/spaces/simonduerr/ProteinMPNN) |2022/07|
 | ProDESIGN-LE | Transformer + FNN | - | 3D structure | sequence | 5,867,488 residues from PDB40 | [Paper](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v4)| - |2022/07|
-| TIMED | CNN | 3M | 3D structure | sequence | 32k structures from the PISCES server | [Paper](https://arxiv.org/abs/2109.07925)| [Code](https://github.com/wells-wood-research/timed-design) |2022/07|
+| TIMED | CNN | 3M | 3D structure | sequence | 32k structures from the PISCES server | [Paper](https://arxiv.org/abs/2109.07925)| [Code](https://github.com/wells-wood-research/timed-design) |2022/08|
 
 
 #  Class II: Structure generation
