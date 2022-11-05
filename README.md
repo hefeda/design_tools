@@ -59,8 +59,10 @@ Methods in this class generate structures unconditionally or from a set of secon
 | **SCUBA** |  NC-NN | ~20k | secondary structure motif | backbone | 12,465  structures | [Paper](https://www.nature.com/articles/s41586-021-04383-5) | [Code](https://zenodo.org/record/4533424#.YwP3UPFBwqs) | 2022/02 | 
 | **Ig-VAE** | VAE | - | - | protein backbone coordinates | 10,768 individual immunoglobulin domains | [Paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010271) | [Code](https://github.com/ProteinDesignLab/IgVAE) | 2022/02 | 
 | **GENESIS** |  VAE | - | secondary structure motif | contact map | 40,726 backbones with remodeled loops | [Paper](https://openreview.net/pdf?id=DwN81YIXGQP) | - | 2022/03 | 
+| **ProtDiff & SMCDiff** |  EGNN | - | Optional: structural motif | coordinates | 4,269 PDB structures | [Paper](https://arxiv.org/abs/2206.04119) | - | 2022/06 | 
 | **Lai et al.** | VAE | - | topology | protein backbone coordinates | CATH 4.2 40% sequences/structures | [Paper](https://www.biorxiv.org/content/10.1101/2022.07.09.499440) | - | 2022/07| 
 | **ProteinSGM** | SDE + RefineNet | - | optional: masked matrices | matrices describing distance and torsional angles | 10,361 CATH 4.3 95% structures | [Paper](https://www.biorxiv.org/content/10.1101/2022.07.13.499967v1) | - | 2022/07| 
+| **FoldingDiff** | Transformer | - | - | internal angles | CATH 4.2 40% structures | [Paper](https://arxiv.org/abs/2209.15611) | [Code](https://github.com/microsoft/foldingdiff) | 2022/09| 
 
 # Class III: Sequence generation
 Methods in this class generate sequences usually from autoregressive language models, and can sometimes be conditioned.
