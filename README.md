@@ -93,4 +93,5 @@ Methods in this class generate sequences and structures concomitantly, and inclu
 | **Constrained hallucination2** |  CNN (RoseTTAFold) | N/A | sequence/structure | sequence/structure | N/A | [Paper](https://www.science.org/doi/full/10.1126/science.abn2100?af=R) | [Code](https://github.com/RosettaCommons/RFDesign) | 2021/11 | 
 | **RFjoint** | CNN (RoseTTAFold, finetuned) | N/A | sequence/structure | sequence/structure | Finetuned with 25% PDB version 02/2020 + 75 % AF2 structures  | [Paper](https://www.science.org/doi/full/10.1126/science.abn2100?af=R) | [Code](https://github.com/RosettaCommons/RFDesign) | 2021/11 | 
 | **Protein Diffusion** | Diffussion model  | - | Secondary structure motif sketches | sequence/structure | 53,414 3D structures (95% CATH 4.2 S95) | [Paper](https://arxiv.org/abs/2205.15019) | [Code](https://nanand2.github.io/proteins/) | 2022/05| 
+| **Roney** | AlphaFold2 | N/A | random sequence | sequence/structure | N/A | [Paper](https://www.biorxiv.org/content/10.1101/2022.03.11.484043v3) | [Code](https://github.com/jproney/AF2Rank)| 2022/06| 
 
